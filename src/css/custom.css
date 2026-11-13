@@ -1,0 +1,318 @@
+/*
+ * Apparence du guide, d'après la maquette validée et le design system FAP :
+ * police DM Sans, thème clair, bleu FAP pour les actions et les liens.
+ */
+
+:root {
+  --fap-blue: #1b8fc6;          /* bouton « Ouvrir FAP », sélection */
+  --fap-blue-dark: #17719e;     /* liens (contraste suffisant sur fond clair) */
+  --fap-blue-light: #e3f1f8;    /* fiche active, badges d'édition */
+  --fap-ink: #1b2333;           /* texte principal, FR actif */
+  --fap-ink-soft: #4a5468;      /* texte secondaire */
+  --fap-line: #e3e7ee;          /* séparateurs */
+  --fap-page: #f7f9fb;          /* fond de page */
+
+  --ifm-font-family-base: 'DM Sans', system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif;
+  --ifm-heading-font-family: var(--ifm-font-family-base);
+  --ifm-font-color-base: var(--fap-ink);
+  --ifm-heading-color: var(--fap-ink);
+  --ifm-background-color: var(--fap-page);
+  --ifm-background-surface-color: #ffffff;
+
+  --ifm-color-primary: var(--fap-blue-dark);
+  --ifm-color-primary-dark: #156690;
+  --ifm-color-primary-darker: #146088;
+  --ifm-color-primary-darkest: #104f70;
+  --ifm-color-primary-light: #197cae;
+  --ifm-color-primary-lighter: #1a82b4;
+  --ifm-color-primary-lightest: #1b8fc6;
+  --ifm-link-color: var(--fap-blue-dark);
+
+  --ifm-navbar-height: 4rem;
+  --ifm-navbar-background-color: #ffffff;
+  --ifm-navbar-shadow: none;
+  --ifm-toc-border-color: transparent;
+  --ifm-global-radius: 0.5rem;
+  --ifm-line-height-base: 1.65;
+  --ifm-h1-font-size: 2.25rem;
+  --ifm-h2-font-size: 1.5rem;
+  --ifm-heading-font-weight: 700;
+  --doc-sidebar-width: 290px;
+}
+
+/* ---------- Barre de navigation ---------- */
+
+.navbar {
+  border-bottom: 1px solid var(--fap-line);
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
+.navbar__logo {
+  height: 2.25rem;
+}
+
+.navbar__brand {
+  flex-shrink: 0;
+}
+
+.navbar__title {
+  white-space: nowrap;
+  overflow: visible;
+  font-weight: 700;
+  font-size: 1.15rem;
+  margin-right: 0.6rem;
+}
+
+.navbar-guide-label {
+  white-space: nowrap;
+  color: var(--fap-ink-soft);
+  font-size: 1.05rem;
+}
+
+/* La recherche au centre, la langue et « Ouvrir FAP » à droite. */
+.navbar__items--right {
+  flex: 1 1 auto;
+  gap: 0.75rem;
+}
+
+.navbar-search-center {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.navbar__search-input {
+  width: 26rem;
+  max-width: 32vw;
+  height: 2.5rem;
+  border: 1px solid #cfd6e0;
+  border-radius: 0.5rem;
+  background-color: #ffffff;
+  font-size: 1rem;
+}
+
+.locale-toggle {
+  display: inline-flex;
+  border: 1px solid #cfd6e0;
+  border-radius: 0.5rem;
+  overflow: hidden;
+}
+
+.locale-toggle__item {
+  padding: 0.4rem 0.8rem;
+  font-weight: 600;
+  font-size: 0.95rem;
+  color: var(--fap-ink-soft);
+  background: #ffffff;
+}
+
+.locale-toggle__item:hover {
+  text-decoration: none;
+  color: var(--fap-ink);
+  background: var(--fap-page);
+}
+
+.locale-toggle__item--active,
+.locale-toggle__item--active:hover {
+  background: var(--fap-ink);
+  color: #ffffff;
+}
+
+.locale-toggle--mobile {
+  margin: 0.5rem 0.75rem;
+}
+
+.navbar-open-fap.navbar__link,
+.navbar-open-fap.navbar__link:hover {
+  background: var(--fap-blue);
+  color: #ffffff;
+  font-weight: 700;
+  border-radius: 0.5rem;
+  padding: 0.5rem 1rem;
+  text-decoration: none;
+}
+
+.navbar-open-fap.navbar__link:hover {
+  background: var(--fap-blue-dark);
+}
+
+.navbar__items--right > .navbar-open-fap:last-child {
+  padding-right: 1rem;
+}
+
+/* Pas de pictogramme « lien externe » sur le bouton. */
+.navbar-open-fap svg {
+  display: none;
+}
+
+/* ---------- Sommaire (à gauche) ---------- */
+
+.theme-doc-sidebar-container {
+  border-right: none !important;
+}
+
+.theme-doc-sidebar-menu::before {
+  content: 'Sommaire';
+  display: block;
+  margin: 0.5rem 0 0.75rem 0.75rem;
+  font-size: 0.8rem;
+  font-weight: 600;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--fap-ink-soft);
+}
+
+html[lang^='en'] .theme-doc-sidebar-menu::before {
+  content: 'Contents';
+}
+
+.theme-doc-sidebar-item-category-level-1 > .menu__list-item-collapsible > .menu__link {
+  font-weight: 700;
+  color: var(--fap-ink);
+}
+
+.theme-doc-sidebar-item-category-level-1 > .menu__list {
+  border-left: 1px solid var(--fap-line);
+  margin-left: 0.75rem;
+  padding-left: 0.5rem;
+}
+
+.menu__link--active:not(.menu__link--sublist) {
+  background: var(--fap-blue-light);
+  color: var(--fap-blue-dark);
+  font-weight: 600;
+}
+
+/* ---------- « Sur cette page » (à droite) ---------- */
+
+.theme-doc-toc-desktop::before {
+  content: 'Sur cette page';
+  display: block;
+  margin-bottom: 0.5rem;
+  padding-left: 0.75rem;
+  font-size: 0.8rem;
+  font-weight: 600;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--fap-ink-soft);
+}
+
+html[lang^='en'] .theme-doc-toc-desktop::before {
+  content: 'On this page';
+}
+
+.table-of-contents__link {
+  color: var(--fap-ink-soft);
+  font-size: 0.95rem;
+}
+
+.table-of-contents__link--active {
+  color: var(--fap-blue-dark);
+  font-weight: 600;
+}
+
+/* ---------- Fiche ---------- */
+
+.theme-doc-breadcrumbs .breadcrumbs__link {
+  background: none;
+  padding: 0;
+  font-size: 0.95rem;
+  color: var(--fap-ink-soft);
+}
+
+.theme-doc-breadcrumbs .breadcrumbs__item:not(:last-child)::after {
+  content: '›';
+  background: none;
+  margin: 0 0.4rem;
+  color: var(--fap-ink-soft);
+  width: auto;
+  height: auto;
+  filter: none;
+  opacity: 1;
+}
+
+.markdown h1 {
+  margin-bottom: 0.75rem;
+}
+
+.markdown h2 {
+  margin-top: 2rem;
+}
+
+.fiche-badges {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-bottom: 1.75rem;
+}
+
+.fiche-badge {
+  display: inline-block;
+  padding: 0.15rem 0.6rem;
+  border-radius: 0.35rem;
+  font-size: 0.85rem;
+  font-weight: 600;
+}
+
+.fiche-badge--version {
+  background: #edf0f4;
+  color: var(--fap-ink);
+}
+
+.fiche-badge--edition {
+  background: var(--fap-blue-light);
+  color: var(--fap-blue-dark);
+}
+
+/* Fiche précédente / suivante : de simples liens, comme sur la maquette. */
+.pagination-nav {
+  border-top: 1px solid var(--fap-line);
+  padding-top: 1rem;
+}
+
+.pagination-nav__link {
+  border: none;
+  padding: 0;
+  background: none;
+}
+
+.pagination-nav__sublabel {
+  display: none;
+}
+
+.pagination-nav__label {
+  font-weight: 600;
+  color: var(--fap-blue-dark);
+}
+
+.pagination-nav__link--prev .pagination-nav__label::before {
+  content: '← ';
+}
+
+.pagination-nav__link--next .pagination-nav__label::after {
+  content: ' →';
+}
+
+/* ---------- Mobile ---------- */
+
+@media (max-width: 996px) {
+  .navbar {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+
+  .navbar-guide-label,
+  .navbar__items--right > .locale-toggle,
+  .navbar__items--right > .navbar-open-fap {
+    display: none;
+  }
+
+  .navbar__items--right {
+    flex: 0 0 auto;
+  }
+
+  .navbar__search-input {
+    width: auto;
+    max-width: none;
+  }
+}
