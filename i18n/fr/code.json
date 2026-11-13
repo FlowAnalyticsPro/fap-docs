@@ -1,0 +1,32 @@
+{
+  "theme.SearchBar.label": {
+    "message": "Rechercher dans le guide"
+  },
+  "theme.SearchBar.noResultsText": {
+    "message": "Aucun résultat"
+  },
+  "theme.SearchBar.seeAllOutsideContext": {
+    "message": "Voir tous les résultats hors de « {context} »"
+  },
+  "theme.SearchBar.searchInContext": {
+    "message": "Voir tous les résultats dans « {context} »"
+  },
+  "theme.SearchBar.seeAll": {
+    "message": "Voir tous les résultats"
+  },
+  "theme.SearchPage.existingResultsTitle": {
+    "message": "Résultats de recherche pour « {query} »"
+  },
+  "theme.SearchPage.emptyResultsTitle": {
+    "message": "Rechercher dans le guide"
+  },
+  "theme.SearchPage.searchContext.everywhere": {
+    "message": "Partout"
+  },
+  "theme.SearchPage.documentsFound.plurals": {
+    "message": "1 fiche trouvée|{count} fiches trouvées"
+  },
+  "theme.SearchPage.noResultsText": {
+    "message": "Aucune fiche trouvée"
+  }
+}
