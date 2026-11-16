@@ -1,0 +1,36 @@
+{
+  "navbar.guideLabel": {
+    "message": "User guide",
+    "description": "Libellé à côté du logo"
+  },
+  "navbar.localeToggle.ariaLabel": {
+    "message": "Guide language",
+    "description": "Libellé accessible du sélecteur de langue"
+  },
+  "breadcrumbs.guide": {
+    "message": "Guide",
+    "description": "Premier élément du fil d'Ariane"
+  },
+  "fiche.version": {
+    "message": "Version {version}"
+  },
+  "fiche.edition.cloud": {
+    "message": "Cloud"
+  },
+  "fiche.edition.onPremise": {
+    "message": "On-Premise"
+  },
+  "fiche.edition.jira": {
+    "message": "Jira add-on"
+  },
+  "theme.SearchBar.label": {
+    "message": "Search the guide",
+    "description": "The ARIA label and placeholder for search button"
+  },
+  "theme.SearchPage.emptyResultsTitle": {
+    "message": "Search the guide"
+  },
+  "theme.SearchPage.documentsFound.plurals": {
+    "message": "1 page found|{count} pages found"
+  }
+}

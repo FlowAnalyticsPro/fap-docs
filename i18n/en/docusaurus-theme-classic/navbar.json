@@ -1,0 +1,14 @@
+{
+  "title": {
+    "message": "Flow Analytics Pro",
+    "description": "The title in the navbar"
+  },
+  "logo.alt": {
+    "message": "Flow Analytics Pro",
+    "description": "The alt text of navbar logo"
+  },
+  "item.label.Ouvrir FAP": {
+    "message": "Open FAP",
+    "description": "Navbar item with label Ouvrir FAP"
+  }
+}
