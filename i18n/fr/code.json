@@ -28,5 +28,8 @@
   },
   "theme.SearchPage.noResultsText": {
     "message": "Aucune fiche trouvée"
+  },
+  "fiche.video.title": {
+    "message": "Vidéo : {title}"
   }
 }

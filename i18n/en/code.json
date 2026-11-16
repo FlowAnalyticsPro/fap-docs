@@ -36,5 +36,8 @@
   "navbar.openFap": {
     "message": "Open FAP",
     "description": "Bouton vers le site de FAP"
+  },
+  "fiche.video.title": {
+    "message": "Video: {title}"
   }
 }
