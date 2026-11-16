@@ -3,6 +3,7 @@
 // - chaque fiche FR a ses champs obligatoires et un identifiant stable (= son adresse) ;
 // - chaque fiche FR a sa traduction EN, avec le même identifiant ;
 // - les repères d'édition et le résumé d'aide (popup FAP), s'ils existent, sont complets ;
+// - la vidéo, si elle existe, est un identifiant YouTube, dans les deux langues ;
 // - aucun identifiant déjà publié n'a disparu (scripts/published-ids.json).
 
 import fs from 'node:fs';
@@ -16,6 +17,7 @@ const EN_SIDEBAR = path.join(ROOT, 'i18n/en/docusaurus-plugin-content-docs/curre
 const PUBLISHED = JSON.parse(fs.readFileSync(path.join(ROOT, 'scripts/published-ids.json'), 'utf8'));
 const EDITIONS = ['cloud', 'on-premise', 'jira'];
 const ID_FORMAT = /^[a-z0-9]+(-[a-z0-9]+)*$/;
+const YOUTUBE_ID = /^[A-Za-z0-9_-]{11}$/;
 
 const errors = [];
 const fail = (file, message) => errors.push(`${path.relative(ROOT, file)} : ${message}`);
@@ -65,6 +67,9 @@ function checkFiche(file) {
       fail(file, `editions doit être une liste parmi : ${EDITIONS.join(', ')}`);
     }
   }
+  if (data.video !== undefined && !YOUTUBE_ID.test(String(data.video))) {
+    fail(file, `video doit être l'identifiant YouTube de la vidéo (11 caractères), pas « ${data.video} »`);
+  }
   checkHelp(file, data.help);
   return data;
 }
@@ -95,6 +100,9 @@ for (const file of frFiles) {
   }
   if (JSON.stringify(en.editions ?? []) !== JSON.stringify(data.editions ?? [])) {
     fail(enFile, 'editions différentes de la version française');
+  }
+  if ((en.video === undefined) !== (data.video === undefined)) {
+    fail(enFile, 'la vidéo doit exister dans les deux langues, ou dans aucune');
   }
   if ((en.help === undefined) !== (data.help === undefined)) {
     fail(enFile, 'le résumé d\'aide (help) doit exister dans les deux langues, ou dans aucune');
