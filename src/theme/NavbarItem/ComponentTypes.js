@@ -2,9 +2,11 @@
 import ComponentTypes from '@theme-original/NavbarItem/ComponentTypes';
 import GuideLabel from '@site/src/components/GuideLabel';
 import LocaleToggle from '@site/src/components/LocaleToggle';
+import OpenFapButton from '@site/src/components/OpenFapButton';
 
 export default {
   ...ComponentTypes,
   'custom-guideLabel': GuideLabel,
   'custom-localeToggle': LocaleToggle,
+  'custom-openFap': OpenFapButton,
 };

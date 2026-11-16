@@ -105,12 +105,8 @@ const config = {
           { type: 'custom-guideLabel', position: 'left' },
           { type: 'search', position: 'right', className: 'navbar-search-center' },
           { type: 'custom-localeToggle', position: 'right' },
-          {
-            href: 'https://flowanalyticspro.com',
-            label: 'Ouvrir FAP',
-            position: 'right',
-            className: 'navbar-open-fap',
-          },
+          // Bouton « Ouvrir FAP » : site de FAP dans la langue du guide.
+          { type: 'custom-openFap', position: 'right' },
         ],
       },
     }),
