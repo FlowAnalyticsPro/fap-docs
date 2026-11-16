@@ -5,6 +5,7 @@ title: "1.3 Logging in to FAP"
 sidebar_label: "1.3 Logging in to FAP"
 sidebar_position: 3
 guide_version: "8.1"
+video: Pw4ndSIrKiQ
 ---
 
 ## Cloud edition

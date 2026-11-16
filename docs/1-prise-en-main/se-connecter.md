@@ -5,6 +5,7 @@ title: "1.3 Se connecter à FAP"
 sidebar_label: "1.3 Se connecter à FAP"
 sidebar_position: 3
 guide_version: "8.1"
+video: VzOR-Dxu6ZI
 ---
 
 ## Édition Cloud
