@@ -5,6 +5,7 @@ title: "1.4 Navigating FAP"
 sidebar_label: "1.4 Navigating FAP"
 sidebar_position: 4
 guide_version: "8.1"
+video: vA1yqD1La7g
 ---
 
 ## The side menu
