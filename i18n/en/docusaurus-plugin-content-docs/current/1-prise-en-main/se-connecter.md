@@ -13,7 +13,7 @@ guide_version: "8.1"
 
 [https://app.flowanalyticspro.com/sign-up](https://app.flowanalyticspro.com/sign-up)
 
-On the login page, click Sign up and follow the steps. The person who creates the instance becomes its owner: they then manage users and the subscription. A new instance comes with a 30-day free trial.
+On the login page, click Get started and follow the steps. The person who creates the instance becomes its owner: they then manage users and the subscription. A new instance comes with a 30-day free trial.
 
 <figure>
 
