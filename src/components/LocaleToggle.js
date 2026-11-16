@@ -12,8 +12,11 @@ export default function LocaleToggle({mobile}) {
   const {createUrl} = useAlternatePageUtils();
 
   return (
+    // translate="no" : la traduction automatique du navigateur (Chrome, Safari)
+    // ne doit pas transformer le libellé « EN » en « FR ».
     <div
-      className={clsx('locale-toggle', mobile && 'locale-toggle--mobile')}
+      className={clsx('locale-toggle', 'notranslate', mobile && 'locale-toggle--mobile')}
+      translate="no"
       role="group"
       aria-label={translate({
         id: 'navbar.localeToggle.ariaLabel',
