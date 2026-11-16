@@ -302,17 +302,45 @@ html[lang^='en'] .theme-doc-toc-desktop::before {
   }
 
   .navbar-guide-label,
-  .navbar__items--right > .locale-toggle,
   .navbar__items--right > .navbar-open-fap {
     display: none;
   }
 
+  /* Sur mobile, le sélecteur FR | EN reste visible en haut, à côté de la recherche. */
   .navbar__items--right {
     flex: 0 0 auto;
+    gap: 0.5rem;
+  }
+
+  /* Sur mobile, Docusaurus place la loupe de recherche en position absolue à droite :
+     on laisse sa place à côté du sélecteur FR | EN. Pendant une recherche,
+     le champ s'élargit par-dessus, comme d'habitude. */
+  .navbar__items--right > .locale-toggle {
+    margin-right: 3.6rem;
+  }
+
+  .navbar__logo {
+    height: 1.75rem;
+  }
+
+  .navbar__title {
+    font-size: 1rem;
+  }
+
+  .navbar__items--right > .locale-toggle .locale-toggle__item {
+    padding: 0.3rem 0.55rem;
+    font-size: 0.85rem;
   }
 
   .navbar__search-input {
     width: auto;
     max-width: none;
+  }
+}
+
+/* Petits écrans : le titre cède la place au logo seul pour garder la recherche et FR | EN. */
+@media (max-width: 420px) {
+  .navbar__title {
+    display: none;
   }
 }
