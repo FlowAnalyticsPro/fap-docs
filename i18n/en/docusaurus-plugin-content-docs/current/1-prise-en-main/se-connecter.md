@@ -17,7 +17,7 @@ On the login page, click Get started and follow the steps. The person who create
 
 <figure>
 
-![Cloud edition sign-up page](/img/fiches/se-connecter/figure-4.png)
+![Cloud edition sign-up page](/img/fiches/se-connecter/en/figure-4.png)
 
 <figcaption>Figure 4 – Cloud edition sign-up page</figcaption>
 </figure>
