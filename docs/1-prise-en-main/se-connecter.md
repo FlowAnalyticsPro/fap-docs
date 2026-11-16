@@ -11,7 +11,7 @@ guide_version: "8.1"
 
 ### Créer votre instance
 
-<https://app.flowanalyticspro.com/sign-up>
+[https://app.flowanalyticspro.com/sign-up](https://app.flowanalyticspro.com/sign-up)
 
 Sur la page de connexion, cliquez sur Inscription (Sign-up) et laissez-vous guider. La personne qui crée l’instance en devient le propriétaire : elle gère ensuite les utilisateurs et l’abonnement. Une nouvelle instance bénéficie de 30 jours d’essai gratuit.
 
