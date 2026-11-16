@@ -52,21 +52,21 @@ When a link exists, a button appears in the dashboard header, for example “DOR
 
 <figure>
 
-![DORA view header: the Flow Metrics and Assessment buttons lead to the linked items](/img/fiches/notions-cles/figure-1.png)
+![DORA view header: the Flow Metrics and Assessment buttons lead to the linked items](/img/fiches/notions-cles/en/figure-1.png)
 
 <figcaption>Figure 1 – DORA view header: the Flow Metrics and Assessment buttons lead to the linked items</figcaption>
 </figure>
 
 <figure>
 
-![Product header: the Assessment and DORA Metrics buttons lead to the linked items](/img/fiches/notions-cles/figure-2.png)
+![Product header: the Assessment and DORA Metrics buttons lead to the linked items](/img/fiches/notions-cles/en/figure-2.png)
 
 <figcaption>Figure 2 – Product header: the Assessment and DORA Metrics buttons lead to the linked items</figcaption>
 </figure>
 
 <figure>
 
-![Team assessment header: the Flow Metrics and DORA Metrics buttons lead to the linked items](/img/fiches/notions-cles/figure-3.png)
+![Team assessment header: the Flow Metrics and DORA Metrics buttons lead to the linked items](/img/fiches/notions-cles/en/figure-3.png)
 
 <figcaption>Figure 3 – Team assessment header: the Flow Metrics and DORA Metrics buttons lead to the linked items</figcaption>
 </figure>
