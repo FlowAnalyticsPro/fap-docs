@@ -32,5 +32,9 @@
   },
   "theme.SearchPage.documentsFound.plurals": {
     "message": "1 page found|{count} pages found"
+  },
+  "navbar.openFap": {
+    "message": "Open FAP",
+    "description": "Bouton vers le site de FAP"
   }
 }
