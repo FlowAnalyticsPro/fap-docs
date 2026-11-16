@@ -13,7 +13,7 @@ Le menu latéral, à gauche de l’écran, donne accès à tous les modules. Sur
 
 - **Accueil**.
 - **Métriques de flux** : Produits et Programmes.
-- **DORA Metrics** : Vues et Programmes.
+- **Métriques DORA** : Vues et Programmes.
 - **Évaluations** : Modèles, Équipes et Programmes.
 - **Administration** : Gestion des utilisateurs, dans les éditions Cloud et On-Premise, et Réglages, qui regroupent les paramètres communs à toute l’instance. Ces entrées sont réservées aux administrateurs.
 
