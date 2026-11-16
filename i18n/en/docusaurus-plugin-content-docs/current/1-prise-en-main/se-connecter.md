@@ -29,7 +29,7 @@ Two login methods are available:
 - **with your email and password**;
 - **with your Google, Microsoft or Atlassian account**, using OAuth2 authentication. You then have no FAP password to remember.
 
-If you forgot your password, click Lost password? on the login page.
+If you forgot your password, click Forget password? on the login page.
 
 <figure>
 
