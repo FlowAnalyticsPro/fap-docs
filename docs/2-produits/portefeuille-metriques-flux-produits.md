@@ -15,6 +15,13 @@ Le portefeuille liste tous les produits de votre instance. C’est le point de d
 
 Menu latéral › Métriques de flux — Produits.
 
+<figure className="figure-rail">
+
+![L’entrée Métriques de flux — Produits du menu latéral](/img/fiches/portefeuille-metriques-flux-produits/figure-1.png)
+
+<figcaption>Figure 1 – L’entrée Métriques de flux — Produits du menu latéral</figcaption>
+</figure>
+
 ## Ce que vous voyez
 
 - **L’en-tête** indique le nombre de produits et propose le bouton Nouveau produit.
