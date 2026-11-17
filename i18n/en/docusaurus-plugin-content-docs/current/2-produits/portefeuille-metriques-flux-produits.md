@@ -66,7 +66,7 @@ A colored band, on the right edge of the card, signals the product’s status: g
 ## What you can do
 
 - **Open a product**: click its name.
-- **Import a product**: click New product. See section 2.2.
+- **Import a product**: click New product. See section [2.2](./importer-produit.md).
 - **Add or remove a favorite**: click the card’s star.
 - **Switch between cards and list**: click the button at the top right, List or Cards.
 - **Delete a product**: click the card’s trash can, then confirm. Deletion is permanent.
@@ -78,4 +78,4 @@ A colored band, on the right edge of the card, signals the product’s status: g
 
 ## See also
 
-2.2 Importing a product · 2.3 The initial configuration
+[2.2 Importing a product](./importer-produit.md) · 2.3 The initial configuration
