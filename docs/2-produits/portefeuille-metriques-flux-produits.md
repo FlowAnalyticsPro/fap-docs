@@ -66,7 +66,7 @@ Une bande de couleur, sur le bord droit de la carte, signale l’état du produi
 ## Ce que vous pouvez faire
 
 - **Ouvrir un produit** : cliquez sur son nom.
-- **Importer un produit** : cliquez sur Nouveau produit. Voir la fiche 2.2.
+- **Importer un produit** : cliquez sur Nouveau produit. Voir la fiche [2.2](./importer-produit.md).
 - **Ajouter ou retirer un favori** : cliquez sur l’étoile de la carte.
 - **Basculer entre cartes et liste** : cliquez sur le bouton en haut à droite, Liste ou Cartes.
 - **Supprimer un produit** : cliquez sur la corbeille de la carte, puis confirmez. La suppression est définitive.
@@ -78,4 +78,4 @@ Une bande de couleur, sur le bord droit de la carte, signale l’état du produi
 
 ## Voir aussi
 
-2.2 Importer un produit · 2.3 La première configuration
+[2.2 Importer un produit](./importer-produit.md) · 2.3 La première configuration
