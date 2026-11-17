@@ -5,6 +5,7 @@ title: "2.1 The products portfolio"
 sidebar_label: "2.1 The products portfolio"
 sidebar_position: 1
 guide_version: "8.1"
+video: 2clK9KnpjJA
 ---
 
 ## What this screen is for

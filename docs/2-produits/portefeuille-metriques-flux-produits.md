@@ -5,6 +5,7 @@ title: "2.1 Le portefeuille des produits"
 sidebar_label: "2.1 Le portefeuille des produits"
 sidebar_position: 1
 guide_version: "8.1"
+video: 7Iajc1kdmlA
 ---
 
 ## À quoi sert cet écran
