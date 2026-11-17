@@ -37,10 +37,10 @@ Portefeuille des produits › Nouveau produit.
 Les fichiers .xlsx et .xls sont acceptés. Chaque ligne du fichier correspond à un ticket.
 
 1. Choisissez Excel comme source de données.
-2. Choisissez entre créer un nouveau produit, auquel vous donnez un nom, ou mettre à jour un produit Excel existant.
-3. Sélectionnez votre fichier. Un aperçu des premières lignes s’affiche.
-4. Associez chaque colonne du fichier à un champ de FAP, ou indiquez qu’elle doit être ignorée.
-5. Validez. FAP affiche le résultat de l’import.
+2. Sélectionnez votre fichier.
+3. Choisissez entre créer un nouveau produit, auquel vous donnez un nom, ou mettre à jour un produit Excel existant. Cliquez sur Suivant.
+4. Un aperçu des premières lignes s’affiche. Associez chaque colonne du fichier à un champ de FAP, ou indiquez qu’elle doit être ignorée.
+5. Cliquez sur Importer. FAP affiche le résultat de l’import.
 
 Les correspondances suivantes sont obligatoires :
 
