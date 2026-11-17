@@ -48,19 +48,19 @@ Each card shows the product’s name and its status. For a ready product, it als
 
 Depending on its progress, a product’s card shows:
 
-- **a progress bar**, during the import, the calculation of the metrics or the deletion. It shows the number of imported issues and the estimated time remaining. The product cannot be opened in the meantime.
-- **the Start configuration button**, once the import is complete: the product must be configured before the first calculation. See section 2.3.
-- **the Start calculation button**, when the configuration is done but the metrics have not been calculated yet.
+- **a progress bar**, during the import, the computation of the metrics or the deletion. It shows the number of imported issues and the estimated time remaining. The product cannot be opened in the meantime.
+- **the Start configuration button**, once the import is complete: the product must be configured before the first computation. See section 2.3.
+- **the Start computation button**, when the configuration is done but the metrics have not been computed yet.
 - **the Review configuration button**, when a configuration needs to be checked again.
 - **the breakdown of issues**, when the product is ready. Click its name to open its dashboard.
 
-A colored band, on the right edge of the card, signals the product’s status: gray while loading, yellow when the configuration is to be done or reviewed, green when the product is ready or ready for calculation, red when an error occurred during the import.
+A colored band, on the right edge of the card, signals the product’s status: gray while loading, yellow when the configuration is to be done or reviewed, green when the product is ready or ready for computation, red when an error occurred during the import.
 
 <figure>
 
-![The statuses of a card: loading, configuration to review, ready for calculation, ready, import error](/img/fiches/portefeuille-metriques-flux-produits/en/figure-4.png)
+![The statuses of a card: loading, configuration to review, ready for computation, ready, import error](/img/fiches/portefeuille-metriques-flux-produits/en/figure-4.png)
 
-<figcaption>Figure 4 – The statuses of a card: loading, configuration to review, ready for calculation, ready, import error</figcaption>
+<figcaption>Figure 4 – The statuses of a card: loading, configuration to review, ready for computation, ready, import error</figcaption>
 </figure>
 
 ## What you can do
