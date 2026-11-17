@@ -2,5 +2,9 @@
   "sidebar.guide.category.1 · Prise en main": {
     "message": "1 · Getting started",
     "description": "The label for category '1 · Prise en main' in sidebar 'guide'"
+  },
+  "sidebar.guide.category.2 · Métriques de flux — Produits": {
+    "message": "2 · Flow Metrics — Products",
+    "description": "The label for category '2 · Métriques de flux — Produits' in sidebar 'guide'"
   }
 }
