@@ -5,7 +5,7 @@ title: "1.4 Naviguer dans FAP"
 sidebar_label: "1.4 Naviguer dans FAP"
 sidebar_position: 4
 guide_version: "8.1"
-video: TdCRnLizOJE
+video: twz5oMAS5A0
 ---
 
 ## Le menu latéral
