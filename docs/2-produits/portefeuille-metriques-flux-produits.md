@@ -21,7 +21,7 @@ Menu latéral › Métriques de flux — Produits.
 - **Les produits**, présentés en cartes ou en liste. Les produits marqués comme favoris apparaissent en premier, les autres ensuite.
 - **La recherche et les filtres par type (Scrum ou Kanban) et par source (Jira ou Excel)** permettent de retrouver rapidement un produit.
 
-Chaque carte affiche le nom du produit et son état. Pour un produit prêt, elle montre aussi la répartition de ses tickets : à faire, en cours et terminés.
+Chaque carte affiche le nom du produit et son état. Pour un produit prêt, elle montre aussi la répartition de ses tickets : à faire, en cours et terminés, ainsi que sa progression, c’est-à-dire la part des tickets terminés dans l’ensemble des tickets du backlog.
 
 <figure>
 
@@ -46,6 +46,13 @@ Selon l’avancement, la carte d’un produit affiche :
 - **le bouton Démarrer le calcul**, lorsque la configuration est faite mais que les indicateurs ne sont pas encore calculés.
 - **le bouton Revoir la configuration**, lorsqu’une configuration doit être vérifiée de nouveau.
 - **la répartition des tickets**, lorsque le produit est prêt. Cliquez sur son nom pour ouvrir son tableau de bord.
+
+<figure>
+
+![Les états d’une carte : chargement, configuration à revoir, prêt pour le calcul, prêt](/img/fiches/portefeuille-metriques-flux-produits/figure-4.png)
+
+<figcaption>Figure 4 – Les états d’une carte : chargement, configuration à revoir, prêt pour le calcul, prêt</figcaption>
+</figure>
 
 ## Ce que vous pouvez faire
 
