@@ -15,6 +15,13 @@ The portfolio lists all the products of your instance. It is the starting point 
 
 Side menu › Flow Metrics — Products.
 
+<figure className="figure-rail">
+
+![The Flow Metrics — Products entry of the side menu](/img/fiches/portefeuille-metriques-flux-produits/en/figure-1.png)
+
+<figcaption>Figure 1 – The Flow Metrics — Products entry of the side menu</figcaption>
+</figure>
+
 ## What you see
 
 - **The header** shows the number of products and offers the New product button.
