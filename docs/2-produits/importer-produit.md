@@ -5,6 +5,7 @@ title: "2.2 Importer un produit"
 sidebar_label: "2.2 Importer un produit"
 sidebar_position: 2
 guide_version: "8.1"
+video: OhrOWke046g
 ---
 
 ## À quoi sert cet écran
