@@ -47,11 +47,13 @@ Selon l’avancement, la carte d’un produit affiche :
 - **le bouton Revoir la configuration**, lorsqu’une configuration doit être vérifiée de nouveau.
 - **la répartition des tickets**, lorsque le produit est prêt. Cliquez sur son nom pour ouvrir son tableau de bord.
 
+Une bande de couleur, sur le bord droit de la carte, signale l’état du produit : grise pendant le chargement, jaune quand la configuration est à faire ou à revoir, verte quand le produit est prêt ou prêt pour le calcul, rouge quand une erreur s’est produite pendant l’import.
+
 <figure>
 
-![Les états d’une carte : chargement, configuration à revoir, prêt pour le calcul, prêt](/img/fiches/portefeuille-metriques-flux-produits/figure-4.png)
+![Les états d’une carte : chargement, configuration à revoir, prêt pour le calcul, prêt, erreur d’import](/img/fiches/portefeuille-metriques-flux-produits/figure-4.png)
 
-<figcaption>Figure 4 – Les états d’une carte : chargement, configuration à revoir, prêt pour le calcul, prêt</figcaption>
+<figcaption>Figure 4 – Les états d’une carte : chargement, configuration à revoir, prêt pour le calcul, prêt, erreur d’import</figcaption>
 </figure>
 
 ## Ce que vous pouvez faire
