@@ -5,6 +5,7 @@ title: "2.2 Importing a product"
 sidebar_label: "2.2 Importing a product"
 sidebar_position: 2
 guide_version: "8.1"
+video: _4nrVeiuM44
 ---
 
 ## What this screen is for
