@@ -5,6 +5,7 @@ title: "2.4 The dashboards"
 sidebar_label: "2.4 The dashboards"
 sidebar_position: 4
 guide_version: "8.1"
+video: Z4QfQNLTAN8
 ---
 
 ## What this screen is for
