@@ -52,7 +52,7 @@ Le tableau de bord par défaut est fourni par FAP. Il ne peut pas être modifié
 - **Changer de point de vue** : choisissez une version, un sprint ou une feature dans Vue. Pour un sprint, FAP affiche ses dates, les jours restants et son objectif.
 - **Filtrer par type de ticket** : choisissez un type dans Type de tickets, par exemple Story ou Bug. Toutes les cartes sont recalculées.
 - **Régler une carte** : cliquez sur sa roue dentée, quand elle en a une. Pour le Débit, par exemple, vous choisissez le cycle : hebdomadaire, toutes les 2 semaines, mensuel…
-- **Afficher une carte en plein écran** : cliquez sur l’icône d’agrandissement de la carte.
+- **Afficher un graphique en plein écran** : sur une carte qui présente un graphique, cliquez sur l’icône d’agrandissement.
 - **Passer de Combien à Quand** dans la carte Prévision.
 - **Changer de tableau de bord** : choisissez un tableau de bord personnalisé dans Tableau de bord. Il peut rassembler des indicateurs, des graphiques, des DORA Metrics de la vue liée ou les résultats de l’évaluation liée.
 - **Créer ou modifier un tableau de bord personnalisé** : cliquez sur Configurer. Voir la fiche 2.9, Tableaux de bord personnalisés.
