@@ -19,7 +19,7 @@ Portefeuille des produits › nom du produit, ou bouton Tableau de bord dans l�
 
 - **L’en-tête du produit** : le nom du produit, les boutons d’accès aux autres écrans, la période de calcul et la date de la dernière mise à jour des données (« À jour le… »). Les boutons Évaluation et Métriques DORA apparaissent lorsqu’une évaluation ou une vue DORA est liée au produit.
 - **Le bandeau du backlog** : le nombre de tickets à faire, en cours, terminés et bloqués, et la progression, c’est-à-dire la part des tickets terminés.
-- **La barre de sélection** : Vue choisit ce que vous regardez (le produit entier, une version, un sprint, une feature, un label, un composant ou une classe de service), Tableau de bord passe du tableau de bord par défaut à un tableau de bord personnalisé, et Type de tickets limite les cartes à un type de ticket.
+- **La barre de sélection** : Vue choisit ce que vous regardez (le produit entier, une version, un sprint, une feature, un label, un composant ou une classe de service), Tableau de bord passe du tableau de bord par défaut à un tableau de bord personnalisé, le bouton Configurer permet de créer vos propres tableaux de bord, et Type de tickets limite les cartes à un type de ticket.
 - **Les cartes** : chacune présente un indicateur ou un petit graphique.
 
 <figure>
@@ -54,8 +54,8 @@ Le tableau de bord par défaut est fourni par FAP. Il ne peut pas être modifié
 - **Régler une carte** : cliquez sur sa roue dentée, quand elle en a une. Pour le Débit, par exemple, vous choisissez le cycle : hebdomadaire, toutes les 2 semaines, mensuel…
 - **Afficher un graphique en plein écran** : sur une carte qui présente un graphique, cliquez sur l’icône d’agrandissement.
 - **Passer de Combien à Quand** dans la carte Prévision.
-- **Changer de tableau de bord** : choisissez un tableau de bord personnalisé dans Tableau de bord. Il peut rassembler des indicateurs, des graphiques, des DORA Metrics de la vue liée ou les résultats de l’évaluation liée.
-- **Créer ou modifier un tableau de bord personnalisé** : cliquez sur Configurer. Voir la fiche 2.9, Tableaux de bord personnalisés.
+- **Créer vos propres tableaux de bord** : cliquez sur Configurer pour créer ou modifier un tableau de bord personnalisé. Il peut rassembler des indicateurs, des graphiques, des DORA Metrics de la vue liée ou les résultats de l’évaluation liée. Voir la fiche 2.9, Tableaux de bord personnalisés.
+- **Changer de tableau de bord** : choisissez un tableau de bord personnalisé dans Tableau de bord.
 - **Mettre à jour les données** : selon la configuration de votre instance, l’icône placée à côté de la date de mise à jour lance la mise à jour depuis Jira.
 - **Aller vers les éléments liés** : cliquez sur Évaluation ou Métriques DORA.
 
