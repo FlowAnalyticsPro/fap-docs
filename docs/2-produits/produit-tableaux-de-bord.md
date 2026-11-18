@@ -81,9 +81,8 @@ Lorsque des objectifs de performance sont définis, chaque carte se compare à s
 
 - Toutes les cartes sont calculées sur la période de calcul du produit.
 - Si les données n’ont pas été mises à jour depuis plus de 24 heures, la date « À jour le… » passe en rouge, avec un avertissement.
-- Le sélecteur Vue s’applique aussi aux graphiques et à la liste des tickets.
 - La carte Prédict. Scrum ne concerne que les produits Scrum : pour un board Kanban, elle affiche « Aucun sprint trouvé ».
 
 ## Voir aussi
 
-[2.3 La première configuration](./premiere-configuration.md) · 2.5 Les graphiques · 2.6 La liste des tickets · 2.7 La prévision · 2.9 Réglages du produit — Tableaux de bord personnalisés, Objectifs de performance
+[2.3 La première configuration](./premiere-configuration.md) · [2.5 Les graphiques](./produit-graphiques.md) · 2.6 La liste des tickets · 2.7 La prévision · 2.9 Réglages du produit — Tableaux de bord personnalisés, Objectifs de performance

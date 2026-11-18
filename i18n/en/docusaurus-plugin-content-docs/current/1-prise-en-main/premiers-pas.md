@@ -14,7 +14,7 @@ Choose your starting point based on what you want to track. Each step points to 
 1. Import the team’s Jira project or board, or an Excel file. → Part 2, section [2.2 Importing a product](../2-produits/importer-produit.md).
 2. Do the initial configuration: issue types and workflow (the workflow stages). → Part 2, section [2.3 The initial configuration](../2-produits/premiere-configuration.md).
 3. Read the product dashboard. → Part 2, section [2.4 The dashboards](../2-produits/produit-tableaux-de-bord.md).
-4. Go further with the charts, the forecast and the 360 Analysis. → Part 2, sections 2.5 to 2.8.
+4. Go further with the charts, the forecast and the 360 Analysis. → Part 2, sections [2.5 The charts](../2-produits/produit-graphiques.md) to 2.8.
 
 ## Tracking software delivery
 
