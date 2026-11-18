@@ -5,6 +5,7 @@ title: "2.5 Les graphiques"
 sidebar_label: "2.5 Les graphiques"
 sidebar_position: 5
 guide_version: "8.1"
+video: -he4JJysjP0
 ---
 
 ## À quoi sert cet écran
