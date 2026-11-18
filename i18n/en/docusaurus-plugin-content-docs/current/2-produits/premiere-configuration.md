@@ -5,7 +5,7 @@ title: "2.3 The initial configuration"
 sidebar_label: "2.3 The initial configuration"
 sidebar_position: 3
 guide_version: "8.1"
-video: XCGr0IhHkws
+video: Z4iTaQZkLH4
 ---
 
 ## What this step is for
