@@ -13,7 +13,7 @@ Choisissez votre point de départ selon ce que vous voulez suivre. Chaque étape
 
 1. Importer le projet ou le board Jira de l’équipe, ou un fichier Excel. → Partie 2, fiche [2.2 Importer un produit](../2-produits/importer-produit.md).
 2. Faire la première configuration : types de tickets et workflow (les étapes du flux de travail). → Partie 2, fiche [2.3 La première configuration](../2-produits/premiere-configuration.md).
-3. Lire le tableau de bord du produit. → Partie 2, fiche 2.4 Les tableaux de bord.
+3. Lire le tableau de bord du produit. → Partie 2, fiche [2.4 Les tableaux de bord](../2-produits/produit-tableaux-de-bord.md).
 4. Approfondir avec les graphiques, la prévision et l’Analyse 360. → Partie 2, fiches 2.5 à 2.8.
 
 ## Suivre la livraison logicielle
