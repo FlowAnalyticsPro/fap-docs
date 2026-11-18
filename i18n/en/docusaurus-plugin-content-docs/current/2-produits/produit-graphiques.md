@@ -5,6 +5,7 @@ title: "2.5 The charts"
 sidebar_label: "2.5 The charts"
 sidebar_position: 5
 guide_version: "8.1"
+video: js24yraWxCk
 ---
 
 ## What this screen is for
