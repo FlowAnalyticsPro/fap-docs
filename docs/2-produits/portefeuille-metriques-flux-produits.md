@@ -50,7 +50,7 @@ Chaque carte affiche le nom du produit et son état. Pour un produit prêt, elle
 Selon l’avancement, la carte d’un produit affiche :
 
 - **une barre de progression**, pendant l’import, le calcul des indicateurs ou la suppression. Elle indique le nombre de tickets importés et le temps restant estimé. Le produit ne peut pas être ouvert pendant ce temps.
-- **le bouton Revoir la configuration**, une fois l’import terminé : le produit doit être configuré avant le premier calcul. Voir la fiche 2.3. Le même bouton apparaît lorsqu’une configuration doit être vérifiée de nouveau.
+- **le bouton Revoir la configuration**, une fois l’import terminé : le produit doit être configuré avant le premier calcul. Voir la fiche [2.3](./premiere-configuration.md). Le même bouton apparaît lorsqu’une configuration doit être vérifiée de nouveau.
 - **le bouton Démarrer le calcul**, lorsque la configuration est faite mais que les indicateurs ne sont pas encore calculés.
 - **la répartition des tickets**, lorsque le produit est prêt. Cliquez sur son nom pour ouvrir son tableau de bord.
 
@@ -78,4 +78,4 @@ Une bande de couleur, sur le bord droit de la carte, signale l’état du produi
 
 ## Voir aussi
 
-[2.2 Importer un produit](./importer-produit.md) · 2.3 La première configuration
+[2.2 Importer un produit](./importer-produit.md) · [2.3 La première configuration](./premiere-configuration.md)

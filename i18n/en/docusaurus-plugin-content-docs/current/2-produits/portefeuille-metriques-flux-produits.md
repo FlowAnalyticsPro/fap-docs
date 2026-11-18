@@ -50,7 +50,7 @@ Each card shows the product’s name and its status. For a ready product, it als
 Depending on its progress, a product’s card shows:
 
 - **a progress bar**, during the import, the computation of the metrics or the deletion. It shows the number of imported issues and the estimated time remaining. The product cannot be opened in the meantime.
-- **the Review configuration button**, once the import is complete: the product must be configured before the first computation. See section 2.3. The same button appears when a configuration needs to be checked again.
+- **the Review configuration button**, once the import is complete: the product must be configured before the first computation. See section [2.3](./premiere-configuration.md). The same button appears when a configuration needs to be checked again.
 - **the Start computation button**, when the configuration is done but the metrics have not been computed yet.
 - **the breakdown of issues**, when the product is ready. Click its name to open its dashboard.
 
@@ -78,4 +78,4 @@ A colored band, on the right edge of the card, signals the product’s status: g
 
 ## See also
 
-[2.2 Importing a product](./importer-produit.md) · 2.3 The initial configuration
+[2.2 Importing a product](./importer-produit.md) · [2.3 The initial configuration](./premiere-configuration.md)
