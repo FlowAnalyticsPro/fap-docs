@@ -74,7 +74,7 @@ Le tableau de bord donne des repères, pas un diagnostic. Lisez-le en trois temp
 2. **Le travail en cours** : un vieillissement élevé, proche du temps de traversée, signale du travail qui stagne ; une efficience basse, beaucoup d’attente entre les étapes.
 3. **La qualité et la suite** : le taux d’anomalie, puis la prévision.
 
-Lorsque des objectifs de performance sont définis, une pastille de couleur à côté de la valeur la compare à son objectif. Pour comprendre un chiffre, poursuivez dans les graphiques ou la liste des tickets.
+Lorsque des objectifs de performance sont définis, chaque carte se compare à son objectif. Pour comprendre un chiffre, poursuivez dans les graphiques ou la liste des tickets.
 
 ## Bon à savoir
 
