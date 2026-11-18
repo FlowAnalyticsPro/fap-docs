@@ -5,6 +5,7 @@ title: "2.3 La première configuration"
 sidebar_label: "2.3 La première configuration"
 sidebar_position: 3
 guide_version: "8.1"
+video: XCGr0IhHkws
 ---
 
 ## À quoi sert cette étape
