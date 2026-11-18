@@ -26,7 +26,12 @@ Une première sélection est proposée : vérifiez-la.
 
 Si vous utilisez des classes de service, choisissez le champ qui les porte. Cliquez sur Appliquer : FAP passe au flux d’activité.
 
-*[Figure 7 : l’onglet Types de tickets]*
+<figure>
+
+![L’onglet Types de tickets](/img/fiches/premiere-configuration/figure-7.png)
+
+<figcaption>Figure 7 – L’onglet Types de tickets</figcaption>
+</figure>
 
 ## 2. Flux d’activité (obligatoire)
 
@@ -37,19 +42,34 @@ FAP ramène les étapes de votre outil à trois catégories : À faire, En cours
 
 Cliquez sur Appliquer. Tous les onglets des réglages deviennent accessibles.
 
-*[Figure 8 : l’onglet Flux d’activité]*
+<figure>
+
+![L’onglet Flux d’activité](/img/fiches/premiere-configuration/figure-8.png)
+
+<figcaption>Figure 8 – L’onglet Flux d’activité</figcaption>
+</figure>
 
 ## 3. Jours ouvrés (recommandé)
 
 Les temps de flux sont comptés en jours ouvrés. Vérifiez que le calendrier est celui de l’équipe : fuseau horaire, jours et horaires de travail, jours fériés du pays et de la région, jours non ouvrés propres à l’équipe. Par défaut, le produit reprend les réglages de l’instance. Cliquez sur Appliquer.
 
-*[Figure 9 : l’onglet Jours ouvrés]*
+<figure>
+
+![L’onglet Jours ouvrés](/img/fiches/premiere-configuration/figure-9.png)
+
+<figcaption>Figure 9 – L’onglet Jours ouvrés</figcaption>
+</figure>
 
 ## 4. Réglages par défaut (facultatif)
 
 Ces réglages définissent ce qu’affichent les tableaux de bord et les graphiques à leur ouverture : l’unité de la prédictibilité Scrum, le rythme du débit, le regroupement des temps de flux, et les filtres proposés dans les graphiques. Cliquez sur Appliquer.
 
-*[Figure 10 : l’onglet Réglages par défaut]*
+<figure>
+
+![L’onglet Réglages par défaut](/img/fiches/premiere-configuration/figure-10.png)
+
+<figcaption>Figure 10 – L’onglet Réglages par défaut</figcaption>
+</figure>
 
 Les autres onglets, tableaux de bord personnalisés, objectifs de performance et graphiques personnalisés, ne sont pas nécessaires au départ. Vous y reviendrez une fois les premiers indicateurs calculés.
 
@@ -57,7 +77,12 @@ Les autres onglets, tableaux de bord personnalisés, objectifs de performance et
 
 Cliquez sur Fermer. Le calcul des indicateurs démarre automatiquement et la carte du produit, dans le portefeuille, affiche sa progression. Le produit est prêt lorsque la carte affiche la répartition de ses tickets.
 
-*[Figure 11 : la carte du produit pendant le calcul]*
+<figure>
+
+![La carte du produit pendant le calcul des indicateurs](/img/fiches/premiere-configuration/figure-11.png)
+
+<figcaption>Figure 11 – La carte du produit pendant le calcul des indicateurs</figcaption>
+</figure>
 
 ## Bon à savoir
 
