@@ -24,7 +24,7 @@ En-tête du produit › Graphiques.
 | Thème | Graphiques |
 | --- | --- |
 | Débit | Suivi du débit, Histogramme de débit |
-| Temps de flux | Histogramme du temps de flux, Nuage de points du temps de flux, Évolution du temps de flux, Poids des tickets vs Temps de Cycle |
+| Temps de flux | Histogramme du temps de flux, Nuage de points du temps de flux, Évolution du temps de flux, Flux XmR, Poids des tickets vs Temps de Cycle |
 | Flux et travail en cours | Flux par étape, Flux d’efficience, Vieillissement, Flux cumulé |
 | Sprints | Sprint Burnup, Sprint Burndown, Vélocité |
 | Échéances | Nuage de points des échéances, Histogramme des échéances |
