@@ -5,6 +5,7 @@ title: "2.4 Les tableaux de bord"
 sidebar_label: "2.4 Les tableaux de bord"
 sidebar_position: 4
 guide_version: "8.1"
+video: 8zvaN5DZTOI
 ---
 
 ## À quoi sert cet écran
