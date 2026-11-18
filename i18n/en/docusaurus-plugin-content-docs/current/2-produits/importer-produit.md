@@ -62,4 +62,4 @@ The following mappings are required:
 
 ## See also
 
-2.3 The initial configuration · 2.9 Product settings
+[2.3 The initial configuration](./premiere-configuration.md) · 2.9 Product settings

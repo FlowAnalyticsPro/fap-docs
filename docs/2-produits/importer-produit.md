@@ -62,4 +62,4 @@ Les correspondances suivantes sont obligatoires :
 
 ## Voir aussi
 
-2.3 La première configuration · 2.9 Réglages du produit
+[2.3 La première configuration](./premiere-configuration.md) · 2.9 Réglages du produit
