@@ -81,9 +81,8 @@ When performance goals are defined, each card is compared with its goal. To unde
 
 - All the cards are computed over the product’s computation period.
 - If the data has not been updated for more than 24 hours, the “Updated…” date turns red, with a warning.
-- The View selector also applies to the charts and the issues list.
 - The Scrum Predict. card only concerns Scrum products: for a Kanban board, it shows “No sprints found”.
 
 ## See also
 
-[2.3 The initial configuration](./premiere-configuration.md) · 2.5 The charts · 2.6 The issues list · 2.7 The forecast · 2.9 Product settings — Custom Dashboards, KPI's Goals
+[2.3 The initial configuration](./premiere-configuration.md) · [2.5 The charts](./produit-graphiques.md) · 2.6 The issues list · 2.7 The forecast · 2.9 Product settings — Custom Dashboards, KPI's Goals
