@@ -5,6 +5,7 @@ title: "2.6 La liste des tickets"
 sidebar_label: "2.6 La liste des tickets"
 sidebar_position: 6
 guide_version: "8.1"
+video: goNDLqalcus
 ---
 
 ## À quoi sert cet écran
